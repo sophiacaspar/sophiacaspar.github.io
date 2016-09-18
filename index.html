@@ -1,1 +1,142 @@
-Hello World
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8"/>
+	
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap core -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/scrolling.css">
+
+    <!-- Social buttons -->
+    <link rel="stylesheet" href="social-buttons/social-buttons.css" >
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
+
+    <title>Sophia Caspár</title>
+
+</head>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-default" role="navigation" id="menu">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                 <div class="navbar-header">
+                    <a class="navbar-brand" href="#page-top">Sophia Caspár</a>
+            </div>
+            </div>
+
+    <!-- Nav links and social buttons for toggling -->
+ 
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+               
+
+            <ul class="nav navbar-nav">
+                <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+                <li><a class="page-scroll" href="#about">Om mig</a></li>
+                <li><a class="page-scroll" href="#cv">CV</a></li>
+                <li><a class="page-scroll" href="#kontakt">Kontakt</a></li>
+                <li><a href="http://wundernas.st">Projektkurs: VR</a></li>
+                <!--<li><a href="http://sophiacaspar.blogg.se">Blogg</a></li> -->
+            </ul>
+
+            <!-- Social-buttons -->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="mailto:sophiacaspar@gmail.com" target="_top" class="sb mail"></a></li>
+        		<li><a href="https://www.facebook.com/sophia.caspar" target="_blank" class="sb facebook"></a></li>
+                <li><a href="https://www.instagram.com/sophiacaspar/" target="_blank" class="sb instagram"></a></li>
+              	<li><a href="https://se.linkedin.com/in/sophia-caspár-06bbba65" target="_blank" class="sb linkedin"></a></li>
+                <li><a href="https://github.com/sophiacaspar" target="_blank" class="sb github"></a></li>
+            </ul> 
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<!-- Header-image -->
+<div class="wide">
+</div>
+
+        <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Hello world!</h1>
+                    Välkomna till mitt digitala CV. Som ni kanske gissat från namnet på hemsidan så heter jag Sophia Caspár. Jag studerar till att bli civilingenjör inom datateknik med inriktning information- och kommunikationsteknik på Luleå tekniska universitet och är nu inne på mitt sista år. Under våren 2017 kommer jag åka till Sydkorea för att testa på livet som utbytesstudent för att sedan i sommar/höst 2017 skriva mitt examensarbete.<br>
+
+                    <br> mer info kommer...
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- Project Section -->
+    <section id="cv" class="cv-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>CV</h1>
+                    <br><h4>Utbildning</h4>
+                    <b>2013 - </b> Civilingenjör Datateknik med inriktning informations- och kommunikationsteknik. <i> Luleå tekniska universitet.</i><br>
+                    <b>2011 - 2013</b> Civilingenjör Rymdteknik. <i> Luleå tekniska universitet.</i> Avbruten pga byte till datateknik.<br>
+
+                    <br><h4>Arbetslivserfarenhet</h4>
+                    <b>2016</b> Sommarjobb inom quality information. Arbetade i R och SQL för att förutspå olika kostnader med hjälp av diverse algoritmer. <i> Scania, Södertälje, YQI.</i><br>
+                    <b>2015</b> Sommarjobb inom big data. Arbetade i R för att lägga grund till ett större projekt inom machine learning. <i> Ericsson, Kista, Stockholm.</i><br>
+
+                    MER INFO KOMMER
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontakt" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact Section</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+        $('#menu ul li a').click(function (e) {
+            e.preventDefault();
+            $('#menu ul li a').removeClass('active');
+            $(this).addClass('active');                
+        });            
+    });
+</script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+
+
+
+</body>
+</html>

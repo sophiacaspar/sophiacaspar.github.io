@@ -1,0 +1,53 @@
+a.sb,
+.sb a {
+	width: 36px;
+	height: 36px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	margin: 0 3px 5px 5px;
+}
+
+.sb {
+}
+.sb li {
+}
+
+
+a.sb:hover,
+.sb a:hover {
+	opacity:0.6;
+	filter: alpha(opacity=60);
+}
+
+a.sb.github,
+.sb a.github {
+	background-image: url(images/github.png);
+	background-size: 36px;
+}
+
+a.sb.facebook,
+.sb a.facebook {
+	background-image: url(images/facebook.png);
+	background-size: 36px;
+}
+
+a.sb.mail,
+.sb a.heart {
+	background-image: url(images/mail.png);
+	background-size: 36px;
+}
+
+a.sb.linkedin,
+.sb a.linkedin {
+	background-image: url(images/linkedin.png);
+	background-size: 36px;
+}
+
+a.sb.instagram,
+.sb a.instagram {
+	background-image: url(images/instagram.png);
+	background-size: 36px;
+}
