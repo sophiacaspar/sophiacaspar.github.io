@@ -43,14 +43,14 @@ html {
     min-height: 100%;
     height: auto;
     padding-top: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-bottom: 25px;
     text-align: center;
     background: #fff;
 }
 
-.cv-section {
+.bucketlist-section {
     min-height: 100%;
     height: auto;
     padding-top: 25px;
@@ -62,7 +62,7 @@ html {
 
 }
 
-.contact-section {
+.project-section {
     min-height: 100%;
     height: auto;
     padding-top: 25px;

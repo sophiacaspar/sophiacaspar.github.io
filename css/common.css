@@ -56,3 +56,15 @@ body {
 .collapsing ul li a:hover, .in ul li a:hover {color: #FFE4E1!important}
 }
 
+h1 {
+  color:  #464641;
+ font-family: "Operator STD", Monaco, monospace;
+ font-variant: small-caps;
+ letter-spacing: 3px;
+}
+
+b {
+  color:  #464641;
+}
+
+
