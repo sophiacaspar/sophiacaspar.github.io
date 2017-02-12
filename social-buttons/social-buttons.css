@@ -22,6 +22,12 @@ a.sb:hover,
 	filter: alpha(opacity=60);
 }
 
+a.sb.cv,
+.sb a.cv {
+	background-image: url(images/cv.png);
+	background-size: 36px;
+}
+
 a.sb.github,
 .sb a.github {
 	background-image: url(images/github.png);

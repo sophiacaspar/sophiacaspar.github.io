@@ -67,4 +67,44 @@ b {
   color:  #464641;
 }
 
+.text {
+    font-family: "Operator STD", Monaco, monospace;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
+
+.cv-button {
+  background-color: white;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: #FFC0CB 1px solid;
+  color:  #464641;
+
+}
+
+.cv-button:hover {
+  color: #ececda; 
+  text-decoration:none;
+}
+
+a {
+    color:  #a6c0c5;
+}
+
+a:hover {
+    color: #ececda; 
+    text-decoration:none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.profileImage {
+    width:248px;
+    height:178px;
+}
 
