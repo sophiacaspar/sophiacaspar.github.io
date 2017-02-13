@@ -53,19 +53,26 @@ body {
 @media only screen and (max-width: 766px) {
 .collapsing, .in {background-color: white}
 .collapsing ul li a, .in ul li a {color: #FFC0CB!important;}
-.collapsing ul li a:hover, .in ul li a:hover {color: #FFE4E1!important}
+.collapsing ul li a:hover, .in ul li a:hover {color: #FFE4E1!important; }
+.wide{
+    width: 100%;
+    height: 40%;
+}
 }
 
-h1 {
+
+h1, h2{
   color:  #464641;
  font-family: "Operator STD", Monaco, monospace;
  font-variant: small-caps;
  letter-spacing: 3px;
+ text-align: center;
 }
 
 b {
   color:  #464641;
 }
+
 
 .text {
     font-family: "Operator STD", Monaco, monospace;
@@ -82,6 +89,7 @@ b {
   padding-right: 15px;
   border: #FFC0CB 1px solid;
   color:  #464641;
+  width: 100%;
 
 }
 
@@ -99,12 +107,19 @@ a:hover {
     text-decoration:none;
 }
 
-h1 {
-    text-align: center;
-}
 
 .profileImage {
-    width:248px;
-    height:178px;
+    width: 100%;
+    height: auto;
+}
+
+.canvas {
+    border:1px solid #FFC0CB;
+
+}
+
+.draggable {
+    width:22%;
+    height:11%;
 }
 
