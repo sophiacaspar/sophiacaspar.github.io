@@ -23,6 +23,7 @@ body {
 .navbar-default {
     background-color: white;
     border-color: white;
+
 }
 .navbar-default .navbar-nav > li > a {
     /*color: #dbddd5;*/
@@ -46,9 +47,24 @@ body {
     color: #FFC0CB;
 }
 
+/* 3 horizontal stripes*/
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #FFC0CB;
+    background-color: #464641;
 }
+
+/* Border of collapsed menu (square with 3 lines)*/
+.navbar-inverse .navbar-toggle { 
+    border: 1px solid #FFC0CB;
+}
+
+
+/* Hover over collapsed menu */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: white;
+  border: 1px solid #ececda;
+}
+
 
 @media only screen and (max-width: 766px) {
 .collapsing, .in {background-color: white}
@@ -58,6 +74,8 @@ body {
     width: 100%;
     height: 40%;
 }
+
+
 }
 
 
