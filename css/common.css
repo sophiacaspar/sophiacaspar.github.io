@@ -7,8 +7,8 @@ body {
 }
 
 .wide {
-  width:100%;
-  height:50%;
+
+  height:400px;
   height:calc(100% - 1px);
   background:url('../img/header.jpg');
   background-size:cover;
@@ -16,9 +16,6 @@ body {
   padding-bottom: 50px;
 }
 
-.wide img {
-  width:100%;
-}
 
 .navbar-default {
     background-color: white;
@@ -73,6 +70,10 @@ body {
 .wide{
     width: 100%;
     height: 40%;
+}
+
+.upperAbout{
+    padding-left: 30px;
 }
 
 
