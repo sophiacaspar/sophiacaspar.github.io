@@ -30,7 +30,8 @@ p {
 }
 
 .result-text {
-    margin-bottom: 2rem;
+    margin: auto;
+    padding-bottom: 2rem;
     color: red;
     display: none;
 }
