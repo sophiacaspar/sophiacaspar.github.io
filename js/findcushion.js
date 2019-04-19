@@ -7,8 +7,6 @@ async function load() {
     var loading = document.getElementById("loading");
     resultBox.classList.remove("active");
     loading.classList.add("active");
-    //resultBox.style.display = "hidden";
-    //loading.style.display = "block";
     for (let i = 1; i <= 3; i++) {
         var circle = document.getElementById(circleId + i);
         circle.style.color = "#9cb8b8";
