@@ -14,7 +14,6 @@ async function load() {
         circle.style.color = "#fafdfd";
     }
     await sleep(1000);
-    //loading.style.display = "hidden";
     loading.classList.remove("active");
     displayResult();
     clicks++;

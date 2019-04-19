@@ -36,6 +36,17 @@ p {
     display: none;
 }
 
+@media only screen and (max-width: 900px) {
+    .find-box {
+        padding: .5rem;
+        margin: 0 .5rem;
+    }
+    .cushion-container {
+        font-size: 14px;
+        padding: 1rem .5rem;
+    }
+}
+
 .loading {
     display: none;
 }
