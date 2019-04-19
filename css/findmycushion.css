@@ -1,0 +1,54 @@
+.cushion-container {
+    padding: 4rem .5rem;
+    background-color: #e8f4f7;
+    height: 100%;
+    width: 100%
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+p {
+    text-align: center;
+}
+
+.find-box {
+    background-color: #fafdfd;
+    margin: 2rem;
+    min-height: 12rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.active {
+    display: block !important;
+}
+
+.content {
+    min-height: 6rem;
+}
+
+.result-text {
+    margin-bottom: 2rem;
+    color: red;
+    display: none;
+}
+
+.loading {
+    display: none;
+}
+
+span {
+    font-size:50px;
+    margin: 1rem .5rem;
+    color: #fafdfd;
+}
+
+footer {
+    background-color: #e8f4f7;
+    font-size: 6px;
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}

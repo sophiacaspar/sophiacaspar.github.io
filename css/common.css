@@ -2,81 +2,34 @@ body,html {
   height: 100%;
 }
 
-body {
-  padding-top: 50px;
+.about-section {
+    min-height: 100%;
+    height: auto;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    background: #fff;
 }
 
-.wide {
-
-  height:700px;
-
-  background:url('../img/header.jpg');
-  background-size:cover;
-  background-position:center;
-  padding-bottom: 50px;
+.navbar-custom {
+    padding: 0 1rem !important;
+    font-family: "Operator STD", Monaco, monospace;
 }
 
-
-.navbar-default {
-    background-color: white;
-    border-color: white;
-
-}
-.navbar-default .navbar-nav > li > a {
-    /*color: #dbddd5;*/
-    color: #FFC0CB;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-    background-color: white;
-    color: #FFC0CB;
-    text-decoration:underline;
+.col-centered {
+    display: block;
+    float: none;
+    margin: 0 auto;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: white;
-    /*color: #FFE4E1;*/
-    color: #ececda;
-}
-
-.navbar-default .navbar-header .navbar-brand {
-    color: #FFC0CB;
-}
-
-/* 3 horizontal stripes*/
-.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #464641;
-}
-
-/* Border of collapsed menu (square with 3 lines)*/
-.navbar-inverse .navbar-toggle { 
-    border: 1px solid #FFC0CB;
-}
-
-
-/* Hover over collapsed menu */
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: white;
-  border: 1px solid #ececda;
-}
-
-
-@media only screen and (max-width: 766px) {
-.collapsing, .in {background-color: white}
-.collapsing ul li a, .in ul li a {color: #FFC0CB!important;}
-.collapsing ul li a:hover, .in ul li a:hover {color: #FFE4E1!important; }
-.wide{
-    width: 100%;
-    height: 40%;
+.row-canvas {
+    display: contents;
 }
 
 .upperAbout{
     padding-left: 30px;
-}
-
-
 }
 
 
@@ -99,24 +52,6 @@ b {
     letter-spacing: 1px;
 }
 
-.cv-button {
-  background-color: white;
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border: #FFC0CB 1px solid;
-  color:  #464641;
-  width: 100%;
-
-}
-
-.cv-button:hover {
-  color: #ececda; 
-  text-decoration:none;
-}
-
 a {
     color:  #a6c0c5;
 }
@@ -134,11 +69,11 @@ a:hover {
 
 .canvas {
     border:1px solid #FFC0CB;
-
+    margin: auto;
+    display: block;
 }
 
 .draggable {
     width:22%;
-    height:11%;
 }
 
