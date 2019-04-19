@@ -45,6 +45,10 @@ p {
         font-size: 14px;
         padding: 1rem .5rem;
     }
+
+    h1 {
+        margin-bottom: .5rem;
+    }
 }
 
 .loading {
