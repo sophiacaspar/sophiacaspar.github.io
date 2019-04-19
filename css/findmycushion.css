@@ -1,8 +1,9 @@
 .cushion-container {
     padding: 4rem .5rem;
     background-color: #e8f4f7;
-    height: 100%;
-    width: 100%
+    height: auto;
+    min-height: 100%;
+    width: 100%;
 }
 
 h1 {
@@ -19,7 +20,8 @@ p {
     min-height: 12rem;
     text-align: center;
     padding: 2rem;
-    overflow: auto;
+    display: block;
+    height: auto;
 }
 
 .active {
