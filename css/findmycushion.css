@@ -19,8 +19,7 @@ p {
     min-height: 12rem;
     text-align: center;
     padding: 2rem;
-    display: block;
-    height: auto;
+    overflow: auto;
 }
 
 .active {
